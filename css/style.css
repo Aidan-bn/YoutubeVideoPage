@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    background-color: bisque;
+    height: 16vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .navitems{
+    justify-content: center;
+    align-items: center;
+}
+
+.navitems .togle {
+    background-color: rgb(3, 3, 3);
+    height: 2px;
+    width: 15px;
+    margin: 3px;
+
+}
+
+.container{
+    width: 95vw;
+    margin: auto;
+}
+
+.playvideo{
+    width: 60vw;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.listvideo{
+    width: 40vw;
+}
+
+.container .playvideo .reactions{
+    text-align: center;
+    border: 2px solid;
+
+}
+
+#video {
+    height: fit-content;
+    width: max-content;
+}
