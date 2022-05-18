@@ -1,20 +1,40 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0px;  
 }
 
-nav{
+.navbar{
     display: flex;
-    background-color: bisque;
-    height: 16vh;
+    background-color: #fff;
+    height: 10vh;
     width: 100vw;
     justify-content: space-around;
     align-items: center;
 }
 
+.main{
+    background-color: rgb(250, 248, 245);;
+}
 nav .navitems{
     justify-content: center;
     align-items: center;
+}
+
+.navfirst{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navitems{
+    margin-left: 10px;
+}
+
+.navsecond{
+    display: flex;
+}
+
+.navthird{
+    display: flex;
 }
 
 .navitems .togle {
@@ -25,29 +45,95 @@ nav .navitems{
 
 }
 
+.main .container{
+    display: flex;
+}
+
 .container{
-    width: 95vw;
+    width: 75vw;
     margin: auto;
+    display: flex;
 }
 
 .playvideo{
-    width: 60vw;
     justify-content: center;
-    margin-left: 25px;
     margin-top: 10px;
 }
 
-.listvideo{
-    width: 40vw;
+.comments{
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }
 
-.container .playvideo .reactions{
-    text-align: center;
-    border: 2px solid;
+.reactions .tittle{
+    text-align: left;
+}
 
+ .playvideo .reactions{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.hline{
+    margin-top: 10px;
+}
+
+.tittle{
+    margin-top: 9px;
+}
+
+.reactions{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 #video {
-    height: fit-content;
-    width: max-content;
+    height: 315px;
+    width: 50vw;
+}
+
+#videolist{
+    height: 115px;
+    width: 10vw;
+}
+
+.rightvideos .listvideo {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+#associated{
+    width: 200px;
+    height: 120px;
+}
+
+.usercomment{
+    margin-top: 9px;
+}
+
+.rightvideos .components{
+    display: flex;
+    justify-content: space-around;
+}
+
+.components .all{
+    background-color: gainsboro;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 4px;
+
+}
+
+.listvideo .assoc{
+    text-align: justify;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 130px;
+}
+
+.reactions .icon{
+    text-transform: uppercase
 }

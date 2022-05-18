@@ -4,63 +4,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     
     <title>YouTube Video Paage</title>
 </head>
 <body>
-    <nav>
-        <div class="navitems " >
-            <div class="togle"></div>
-            <div class="togle"></div>
-            <div class="togle"></div>
+    <nav class="navbar">
+        <div class="navfirst">
+            <div class="navitems " >
+                <div class="togle"></div>
+                <div class="togle"></div>
+                <div class="togle"></div>
+            </div>
+            <div class="navitems">
+                <div class="logo">
+                    <i class="fa fa-youtube-play">YouTube</i>
+                </div>
+            </div>
+    
         </div>
-        <div class="navitems">
-            <div class="logo">
-                <i class="fa fa-youtube-play">YouTube</i>
+        <div class="navsecond">
+            <div class="navitems">
+                <form action="" class="navform">
+                    <input type="text" placeholder="search" class="navsearch">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="navitems">
+                <i class="fa fa-microphone"></i>
             </div>
         </div>
-        <div class="navitems">
-            <form action="" class="navform">
-                <input type="text" placeholder="search" class="navsearch">
-                <button><i class="fa fa-search"></i></button>
-            </form>
-        </div>
-        <div class="navitems">
-            <i class="fa fa-microphone"></i>
-        </div>
-        <div class="navitems">
-            <i class="fa fa-camera"></i>
-        </div>
-        <div class="navitems">
-            <i class="fa fa-bell"></i>
-        </div>
-        <div class="navitems">
-            <i class="fa fa-bell-slash"></i>
-        </div>
-        <div class="navitems">
-            <i class="fa fa-user"></i>
+        
+        <div class="navthird">
+            <div class="navitems">
+                <i class="fa fa-video-camera"></i>
+            </div>
+            <div class="navitems">
+                <i class="fa fa-google"></i>
+            </div>
+            <div class="navitems">
+                <i class="fa fa-bell"></i>
+            </div>
+            <div class="navitems">
+                <i class="fa fa-user-circle-o"></i>
+            </div>
         </div>
     </nav>
 
-    <section>
+    <section class="main">
         <div class="container">
             <div class="playvideo">
-                <div>
+                    <iframe id="video" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                    <p class="tittle">About this video</p>
+                    <div class="reactions">
+                    <div class="count">
+                        <p class="countviews">778,984,278 views * 20 Feb 2020</p>
+                    </div>
+                    <div class="icons">
+                        <i class="icon fa fa-thumbs-up"></i> 485 <i class="icon fa fa-thumbs-down"></i> DISLIKE <i class="icon fa fa-share"></i> LIKE <i class="icon fa fa-scissors"></i> CLIP
+                    </div>
                     
-                    <iframe id="video" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="reactions">
-                    <i class="fa fa-user"></i> <i class="fa fa-user"></i> <i class="fa fa-user"></i> <i class="fa fa-user"></i> <i class="fa fa-user"></i>
                 <div class="comments">
-
-                </div>
-            </div>
-
-            <div class="listvideo">
-
-            </div>
+                    <hr class="hline">
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                    
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                    
+                    <p class="usercomment"><i class="fa fa-user"></i> Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur.</p>
+                </div> 
+                
+            
         </div>
+
+        <side class="rightvideos">
+            <div class="components">
+                <p class="all">All</p>
+                <p class="all">Git</p>
+                <p class="all">Computer program</p>
+                <p class="all">Related</p>
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p> 
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p>
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p>
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p>
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p>
+            </div>
+            <div class="listvideo">
+                <iframe id="associated" src="https://youtu.be/4UhPp1SDOBE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="assoc"><strong> dolor sit dola consectetur</strong>Iusto odio accusamus quis rerum at assumenda!</p>
+            </div>
+        </side>
     </section>
+
 </body>
 </html>
