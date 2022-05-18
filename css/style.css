@@ -22,7 +22,8 @@ nav .navitems{
 
 .navfirst{
     display: flex;
-    justify-content: space-around;
+    margin-left: 20px;
+    width: 30vw;
 }
 
 .navitems{
@@ -31,10 +32,14 @@ nav .navitems{
 
 .navsecond{
     display: flex;
+    width: 40vw;
+    justify-content: center;
 }
 
 .navthird{
     display: flex;
+    width: 30vw;
+    justify-content: space-around;
 }
 
 .navitems .togle {
